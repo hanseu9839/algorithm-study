@@ -31,6 +31,6 @@
 | 주차                     | 문제                                                                                                                                           |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | 1주차(24/01/07~24/01/14) | [DFS와 BFS](https://www.acmicpc.net/problem/1260), [주식](https://www.acmicpc.net/problem/11501), [스타트링크](https://www.acmicpc.net/problem/5014) |
-
+| 2주차(24/01/14~24/01/21 | [바이러스](https://www.acmicpc.net/problem/2606), [단지번호붙이기](https://www.acmicpc.net/problem/2667), [촌수계산](https://www.acmicpc.net/problem/2644) |
 
 
