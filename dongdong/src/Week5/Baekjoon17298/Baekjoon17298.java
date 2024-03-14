@@ -42,10 +42,8 @@ public class Baekjoon17298 {
             arr[stack.pop()] = -1;
         }
 
-
         for(int i=0;i<N;i++){
             sb.append(arr[i]).append(' ');
         }
     }
-
 }
