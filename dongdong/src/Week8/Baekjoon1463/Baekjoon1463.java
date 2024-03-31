@@ -17,14 +17,12 @@ public class Baekjoon1463 {
 
     }
 
-    public static int calculate(int number){
-        if(number==1) return 0;
-        if(dp[number] > 0) return dp[number];
-        dp[number] = calculate(number-1) + 1;
-        if(number%3 == 0) dp[number] = Math.min(dp[number], calculate(number/3) + 1);
-        if(number%2 == 0) dp[number] = Math.min(dp[number], calculate(number/2) + 1);
-
-        return dp[number];
+    public static int calculate(int N, int count){
+// N이 2 미만인 경우 누적된 count값을 반환
+        if (N < 2) {
+            return count;
+        }
+        return Math.min(calculate(N / 2, count + 1 + (N % 2)), calculate(N / 3, count + 1 + (N % 3)));
     }
 
 }
