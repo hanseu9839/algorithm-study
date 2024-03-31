@@ -13,7 +13,7 @@ public class Baekjoon1463 {
 
         dp = new int[n+1];
 
-        System.out.println(calculate(n));
+        System.out.println(calculate(n, 0));
 
     }
 
