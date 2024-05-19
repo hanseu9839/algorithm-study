@@ -1,3 +1,10 @@
+## Baekjoon1439 
+
+## [link](https://www.acmicpc.net/problem/1439)
+
+# 문제 풀이
+
+````
 package src.Week14.Baekjoon1439;
 
 import java.io.BufferedReader;
@@ -13,7 +20,7 @@ public class Baekjoon1439 {
 
         int answer = 0;
         for(int i=1; i< ch.length; i++){
-            if(ch[i-1] != ch[i]) { // 다르면 answer 1올린다. 그러고 (answer + 1) /2를 한다.
+            if(ch[i-1] != ch[i]) { 
                 answer++;
             }
         }
@@ -22,3 +29,6 @@ public class Baekjoon1439 {
         System.out.println(answer);
     }
 }
+
+
+````
